@@ -93,7 +93,6 @@ Final deliverables in the repo:
 - ✅ **Results showing goal achieved**
 - ✅ **10-minute YouTube presentation link** at the top of this README
 
----
 
 ## 8-Week Timeline
 
@@ -200,7 +199,7 @@ Final deliverables in the repo:
   - end-to-end pipeline runs on a small sample
 - Add GitHub Actions CI workflow to run tests on push
 - Draft README (final report format):
-  1) **How to build and run** (must be first)
+  1) How to build and run
   2) data + processing
   3) modeling approach
   4) results + visuals
