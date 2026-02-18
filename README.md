@@ -29,6 +29,8 @@ These goals are specific and measurable. Success will be evaluated by comparing 
 - **Source:** Kaggle  
 https://www.kaggle.com/datasets/berkanoztas/synthetic-transaction-monitoring-dataset-aml
 
+IBM dataset : https://www.kaggle.com/datasets/ealtman2019/ibm-transactions-for-anti-money-laundering-aml
+
 Additional datasets may be explored if needed for comparison or extension:
 - https://www.kaggle.com/datasets/ellipticco/elliptic-data-set
 - https://www.kaggle.com/datasets/ellipticco/elliptic2-data-set
