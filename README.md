@@ -11,9 +11,16 @@ The project will focus on understanding transaction behavior at both the transac
 ## Project Goals
 The primary goals of this project are:
 - Detect anomalous financial transactions based on behavioral patterns in transaction data.
+- The input features will be the amount transferred as well the reason for the transfer
 - Identify and categorize high-risk accounts using transaction-level and account-level features.
 
 These goals are specific and measurable. Success will be evaluated by comparing model outputs against labeled suspicious activity and reporting standard classification metrics such as precision, recall, and F1-score.
+
+## Model I/O
+- Model input (features): We will use transaction amount (numerical) and transfer reason / description (categorical/text). The reason field will be converted into model-ready features via (1) one-hot encoding for a small set of common reasons and/or (2) TF-IDF embeddings if it is free-form text.
+- Prediction target: The model predicts whether a transaction is suspicious (1) vs. non-suspicious (0) using the dataset’s provided label. 
+- Account-level extension (if time permits): Aggregate these transaction-level features per account (e.g., average amount, variance, frequency by reason category) to produce an account risk score.
+- Measurable success criteria: Performance will be evaluated on a held-out test set using precision, recall, F1, and we will also report PR-AUC due to likely class imbalance.
 
 ## Data Collection Plan
 - **Primary Dataset:** Synthetic Transaction Monitoring Dataset for AML  
