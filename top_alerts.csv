@@ -1,0 +1,16 @@
+timestamp,source_dataset,from_bank,from_account,to_bank,to_account,transaction_amount,payment_currency,receiving_currency,payment_format,laundering_type,score,actual,prediction,error_type
+2023-07-10 17:21:45,saml_d,UK,5800503932,UK,2477514279,14978.99,UK pounds,UK pounds,Cash Deposit,Deposit-Send,0.9999937632629372,1,1,true_positive
+2023-06-28 09:55:49,saml_d,UK,3809223790,UK,8638390457,15629.12,UK pounds,UK pounds,Cash Deposit,Deposit-Send,0.9999923741405436,1,1,true_positive
+2023-05-20 17:10:33,saml_d,UK,9265702863,UK,23039938,7930.92,UK pounds,UK pounds,Cash Deposit,Deposit-Send,0.9999912970146769,1,1,true_positive
+2023-05-17 16:03:34,saml_d,UK,5791476743,UK,9380493823,8423.27,UK pounds,UK pounds,Cash Deposit,Deposit-Send,0.9999903854864469,1,1,true_positive
+2023-08-07 11:16:00,saml_d,UK,9425151714,UK,8055925195,6762.1,UK pounds,UK pounds,Cash Deposit,Deposit-Send,0.9999899435986417,1,1,true_positive
+2023-08-11 14:13:28,saml_d,UK,94569759,UK,8878987296,7541.19,UK pounds,Albanian lek,ACH,Structuring,0.9999897567038379,1,1,true_positive
+2023-05-31 19:36:59,saml_d,UK,1334504759,UK,7352073803,12865.02,UK pounds,UK pounds,Cash Deposit,Deposit-Send,0.9999897518945559,1,1,true_positive
+2023-06-21 22:37:14,saml_d,UK,6064582480,UK,3302760648,4345.06,UK pounds,UK pounds,Cash Deposit,Deposit-Send,0.9999863260286541,1,1,true_positive
+2023-08-12 16:18:42,saml_d,UK,9642182749,UK,3831299146,13184.22,UK pounds,UK pounds,Cash Deposit,Deposit-Send,0.9999838629650912,1,1,true_positive
+2023-08-15 11:17:17,saml_d,UK,6346786162,UK,9965419082,7657.4,UK pounds,UK pounds,Cash Deposit,Deposit-Send,0.9999837426305506,1,1,true_positive
+2023-06-22 11:31:19,saml_d,UK,3065950352,UK,9658846243,15131.8,UK pounds,UK pounds,Cash Deposit,Deposit-Send,0.9999835091328996,1,1,true_positive
+2023-06-10 22:45:34,saml_d,UK,9597518361,UK,3790148325,7723.32,UK pounds,UK pounds,Debit card,Structuring,0.9999827868879962,1,1,true_positive
+2023-07-03 08:04:45,saml_d,UK,4303642042,UK,2327949023,5708.88,UK pounds,Albanian lek,Cheque,Structuring,0.9999811691859493,1,1,true_positive
+2023-08-10 13:23:07,saml_d,UK,1139955698,UK,9577633368,10285.84,UK pounds,UK pounds,Cash Deposit,Deposit-Send,0.9999807276232182,1,1,true_positive
+2023-07-10 17:44:10,saml_d,UK,5756418307,UK,3770025609,3464.63,UK pounds,UK pounds,Debit card,Structuring,0.9999761531425388,1,1,true_positive

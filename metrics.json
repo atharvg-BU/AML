@@ -1,0 +1,18 @@
+{
+  "selected_model": "weighted_ensemble",
+  "selected_profile": "best_f1",
+  "selected_threshold": 0.9249999999999999,
+  "fast_mode": false,
+  "model_search_mode": "full",
+  "feature_cache_path": "/content/aml_merged/artifacts/cache/engineered_features_ibm_all_saml_all.parquet",
+  "test_metrics": {
+    "roc_auc": 0.9999192840989607,
+    "pr_auc": 0.9850735155025756,
+    "pr_lift": 903.7762875921459,
+    "precision": 0.994067237969677,
+    "recall": 0.9487260144699591,
+    "f1": 0.9708675358120071,
+    "threshold": 0.9249999999999999,
+    "positive_rate": 0.0010899528224258051
+  }
+}

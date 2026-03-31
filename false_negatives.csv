@@ -1,0 +1,16 @@
+timestamp,source_dataset,from_bank,from_account,to_bank,to_account,transaction_amount,payment_currency,receiving_currency,payment_format,laundering_type,score,actual,prediction,error_type
+2023-05-31 19:45:49,saml_d,UK,4829881962,UK,3710914928,16397.666702002578,UK pounds,UK pounds,ACH,Layered_Fan_Out,0.013262727597503604,1,0,false_negative
+2023-07-28 11:04:45,saml_d,UK,7587963408,UK,2135126616,646128.43,UK pounds,UK pounds,Credit card,Single_large,0.015619472940410847,1,0,false_negative
+2023-07-28 12:51:21,saml_d,UK,1021972,Pakistan,6410008704,1444.89,UK pounds,Pakistani rupee,Cross-border,Deposit-Send,0.026720365808934044,1,0,false_negative
+2023-06-13 11:37:25,saml_d,UK,4845635925,UK,8142568146,66693.15,UK pounds,UK pounds,Debit card,Single_large,0.030999165826844536,1,0,false_negative
+2023-06-05 13:26:16,saml_d,UK,9205869061,UK,7794979045,71766.06133633282,UK pounds,UK pounds,Cheque,Cycle,0.03447616885026574,1,0,false_negative
+2023-08-22 20:51:40,saml_d,UK,9813440508,France,2016865535,21996.18,UK pounds,Euro,Cross-border,Deposit-Send,0.038874058955371646,1,0,false_negative
+2023-06-01 19:03:29,saml_d,UK,7123384680,UK,86715269,85.76,UK pounds,UK pounds,Cash Withdrawal,Cash_Withdrawal,0.04157434702405557,1,0,false_negative
+2023-05-29 13:35:16,saml_d,UK,7868750406,UK,4453495989,8784.869730597833,UK pounds,UK pounds,Credit card,Cycle,0.044857845838362484,1,0,false_negative
+2023-06-16 03:15:41,saml_d,UK,5108529656,UAE,7615218409,6334.56,UK pounds,Dirham,Cross-border,Deposit-Send,0.04602779754928578,1,0,false_negative
+2023-07-10 21:10:09,saml_d,UK,2477514279,Pakistan,7990458987,14717.7,UK pounds,Pakistani rupee,Cross-border,Deposit-Send,0.05024206903495627,1,0,false_negative
+2023-06-18 07:48:10,saml_d,UK,3859566185,UK,4991658884,63.59,UK pounds,UK pounds,Cash Withdrawal,Cash_Withdrawal,0.057119572503302296,1,0,false_negative
+2023-08-18 13:22:25,saml_d,UK,3127676613,UK,2579431041,12806.104189107233,UK pounds,UK pounds,Credit card,Layered_Fan_Out,0.059699717757285636,1,0,false_negative
+2023-06-15 11:17:25,saml_d,UK,3859566185,UK,4991658884,105.03,UK pounds,UK pounds,Cash Withdrawal,Cash_Withdrawal,0.06217786221603527,1,0,false_negative
+2023-07-27 13:40:00,saml_d,UK,4708818879,UK,5183431357,29422.279663756493,UK pounds,UK pounds,Credit card,Cycle,0.07278218578416126,1,0,false_negative
+2023-06-19 17:30:35,saml_d,UK,3859566185,UK,4991658884,37.41,UK pounds,UK pounds,Cash Withdrawal,Cash_Withdrawal,0.0733101108420395,1,0,false_negative

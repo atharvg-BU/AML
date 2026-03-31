@@ -1,0 +1,16 @@
+timestamp,source_dataset,from_bank,from_account,to_bank,to_account,transaction_amount,payment_currency,receiving_currency,payment_format,laundering_type,score,actual,prediction,error_type
+2023-05-19 07:30:23,saml_d,UK,21596693,Switzerland,3229493840,7673.88,UK pounds,Pakistani rupee,Cross-border,Normal_Periodical,0.9929059288752892,0,1,false_positive
+2023-06-03 18:15:13,saml_d,UK,3467915237,UK,8947721934,13456.92,UK pounds,Mexican Peso,ACH,Normal_Foward,0.957744587253935,0,1,false_positive
+2023-07-18 21:08:24,saml_d,UK,101996747,Switzerland,3676389486,11164.65,UK pounds,Swiss franc,Cross-border,Normal_Foward,0.9528340604715602,0,1,false_positive
+2023-07-10 11:32:24,saml_d,UK,9477197803,Nigeria,5017742444,3208.76,UK pounds,Naira,Cross-border,Normal_Foward,0.95184039143664,0,1,false_positive
+2023-08-04 20:15:49,saml_d,UK,6190792098,Albania,2394454718,15579.1,UK pounds,Albanian lek,Cross-border,Normal_Foward,0.9427103249649265,0,1,false_positive
+2023-07-28 14:16:17,saml_d,UK,2295495393,Albania,4263797793,5426.26,UK pounds,Albanian lek,Cross-border,Normal_Foward,0.9397489251507172,0,1,false_positive
+2023-06-05 05:20:47,saml_d,UK,8540555834,Pakistan,1409149220,6878.84,UK pounds,Pakistani rupee,Cross-border,Normal_Fan_Out,0.9386508585758474,0,1,false_positive
+2023-07-11 12:04:13,saml_d,UK,3424796752,Nigeria,2049937549,5419.92,UK pounds,Naira,Cross-border,Normal_Foward,0.937312895958224,0,1,false_positive
+2023-08-12 11:35:53,saml_d,UK,36141463,UK,1876258263,10089.23,UK pounds,Indian rupee,Credit card,Normal_Foward,0.9351944208248737,0,1,false_positive
+2023-06-01 19:41:04,saml_d,UK,1157262390,Germany,3149968132,2407.62,UK pounds,Euro,Cross-border,Normal_Foward,0.9347222809617985,0,1,false_positive
+2023-08-17 12:47:14,saml_d,Germany,777718698,UK,3221844474,5074.15,Euro,UK pounds,Cross-border,Normal_Foward,0.9344908467964539,0,1,false_positive
+2023-08-15 13:49:07,saml_d,UK,4886181407,Albania,5931674458,2757.77,UK pounds,Albanian lek,Cross-border,Normal_Foward,0.9324827729555474,0,1,false_positive
+2023-07-15 14:05:23,saml_d,UK,6776851779,UK,5934951403,17861.84,UK pounds,US dollar,Credit card,Normal_Foward,0.9320094479474104,0,1,false_positive
+2023-05-27 00:04:24,saml_d,UK,1699319979,France,405965919,2635.55,UK pounds,Euro,Cross-border,Normal_Small_Fan_Out,0.9306787131224437,0,1,false_positive
+2023-06-07 19:42:12,saml_d,UK,4589024484,UAE,9176743055,10437.28,UK pounds,Dirham,Cross-border,Normal_Plus_Mutual,0.9303923956963931,0,1,false_positive
