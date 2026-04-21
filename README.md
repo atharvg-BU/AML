@@ -11,34 +11,35 @@ Start here for both the April check-in and the final report.
 ### Option 1: `make` workflow
 
 ```bash
-make install
-make test
+make all
 make download
-make run
+make reproduce
 ```
 
 What each command does:
 
+- `make all` installs the dependencies and runs the tests
 - `make install` installs the Python dependencies from `requirements.txt`
 - `make test` runs the repository test suite used by CI
 - `make download` downloads the IBM AML and SAML-D datasets with `kagglehub` into `data/raw/`
 - `make run` opens `ds_final.ipynb` in JupyterLab
+- `make reproduce` executes the final notebook and saves an executed copy under `reports/`
 
 ### Option 2: Conda workflow
 
 ```bash
 conda env create -f environment.yml
 conda activate aml_proj
-make test
+make all
 make download
-make run
+make reproduce
 ```
 
 ### Reproducing the final notebook results
 
 1. Download the datasets with `make download`
-2. Open `ds_final.ipynb`
-3. Run the notebook top to bottom
+2. Execute `make reproduce`
+3. Open `ds_final.ipynb` or the executed notebook under `reports/` if you want to inspect outputs after the run
 
 Notes:
 
@@ -58,6 +59,8 @@ AML/
 ├── reports/
 │   ├── artifacts/              # exported metrics, alert samples, and result tables
 │   └── figures/                # README-ready figures extracted from ds_final.ipynb
+├── FINAL_CHECKLIST.md          # submission checklist for the final deadline
+├── FINAL_PRESENTATION_PREP.md  # presentation outline and Q&A prep
 ├── src/                        # earlier modular AML experiments and utilities
 ├── tests/                      # lightweight CI smoke tests for src/
 ├── .github/workflows/ci.yml    # GitHub Actions test workflow
@@ -336,6 +339,13 @@ Why it matters:
 - the model is extremely strong on the held-out test window
 - the alert-ranking story is especially compelling because top-ranked alerts are almost always true positives
 - the final notebook also exports example top alerts, false positives, and false negatives for manual review
+
+## Final Prep Docs
+
+For the submission week, use these two files directly:
+
+- [`FINAL_CHECKLIST.md`](FINAL_CHECKLIST.md)
+- [`FINAL_PRESENTATION_PREP.md`](FINAL_PRESENTATION_PREP.md)
 
 ## Limitations
 
