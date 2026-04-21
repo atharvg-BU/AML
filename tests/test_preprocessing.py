@@ -91,6 +91,7 @@ def test_clean_ibm_dedup(ibm_df):
 def test_clean_ibm_numeric_amounts(ibm_df):
     # Inject a non-numeric value
     dirty = ibm_df.copy()
+    dirty["Amount Paid"] = dirty["Amount Paid"].astype("object")
     dirty.loc[0, "Amount Paid"] = "bad_value"
     out = clean_ibm(dirty)
     assert pd.api.types.is_float_dtype(out["Amount Paid"]), "Amount Paid should be float after cleaning"

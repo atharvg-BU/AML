@@ -10,11 +10,15 @@ dependencies:
   - pandas
   - scipy
   - scikit-learn
+  - imbalanced-learn
+  - pyarrow
+  - joblib
 
   # Visualization
   - matplotlib
   - seaborn
   - plotly
+  - jupyterlab
 
   # ML / graph
   - xgboost

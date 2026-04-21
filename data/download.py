@@ -2,10 +2,10 @@ import kagglehub
 from pathlib import Path
 import os
 
-# adding datasets here
-DATASETS =  {
-    'ibm-aml': "ealtman2019/ibm-transactions-for-anti-money-laundering-aml",
-    'czech_bank': "siavashraz/1999-czech-financial-dataset"
+# Final datasets used by ds_final.ipynb
+DATASETS = {
+    "ibm-aml": "ealtman2019/ibm-transactions-for-anti-money-laundering-aml",
+    "saml-d": "berkanoztas/synthetic-transaction-monitoring-dataset-aml",
 }
 
 def main():
