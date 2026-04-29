@@ -4,3 +4,12 @@ data/raw/*
 **/__pycache__/*
 **/.DS_Store
 **/.ipynb_checkpoints/*
+scratch/
+node_modules/
+*.tmp
+.~lock.*#
+~$*.pptx
+/final_presentation.pdf
+presentation/final_presentation.pdf
+presentation/build_final_presentation.cjs
+presentation/slide-*.jpg

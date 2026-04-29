@@ -1,6 +1,6 @@
 # AML Risk Detection with Merged IBM + SAML-D Data
 
-Presentation video: add YouTube link here before the final submission.
+**Presentation video:** [YouTube recording](https://youtu.be/Js18MIyoyoU)
 
 This repository contains our BU CS 506 final project on anti-money laundering (AML) risk detection from transaction data. The final project story is centered on [ds_final.ipynb](ds_final.ipynb), which merges the IBM AML dataset and the SAML-D synthetic AML dataset, engineers leak-aware historical features, benchmarks several AML models, tunes alert thresholds, and exports final-quality figures and artifacts.
 
@@ -59,6 +59,7 @@ AML/
 ├── reports/
 │   ├── artifacts/              # exported metrics, alert samples, and result tables
 │   └── figures/                # README-ready figures extracted from ds_final.ipynb
+├── presentation/                # final slide deck, speaker script, and preview renders
 ├── FINAL_CHECKLIST.md          # submission checklist for the final deadline
 ├── FINAL_PRESENTATION_PREP.md  # presentation outline and Q&A prep
 ├── src/                        # earlier modular AML experiments and utilities
@@ -346,6 +347,8 @@ For the submission week, use these two files directly:
 
 - [`FINAL_CHECKLIST.md`](FINAL_CHECKLIST.md)
 - [`FINAL_PRESENTATION_PREP.md`](FINAL_PRESENTATION_PREP.md)
+- [`presentation/final_presentation.pptx`](presentation/final_presentation.pptx)
+- [`presentation/final_presentation_script.md`](presentation/final_presentation_script.md)
 
 ## Limitations
 

@@ -1,5 +1,6 @@
 PYTHON ?= python3
 PIP ?= $(PYTHON) -m pip
+PYTEST ?= $(PYTHON) -m pytest
 NOTEBOOK ?= ds_final.ipynb
 EXEC_NOTEBOOK ?= reports/ds_final.executed.ipynb
 
@@ -20,7 +21,7 @@ install:
 	$(PIP) install -r requirements.txt
 
 test:
-	pytest tests/ -v --tb=short --timeout=60
+	$(PYTEST) tests/ -v --tb=short --timeout=60
 
 download:
 	$(PYTHON) data/download.py
