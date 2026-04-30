@@ -59,9 +59,7 @@ AML/
 ├── reports/
 │   ├── artifacts/              # exported metrics, alert samples, and result tables
 │   └── figures/                # README-ready figures extracted from ds_final.ipynb
-├── presentation/                # final slide deck, speaker script, and preview renders
-├── FINAL_CHECKLIST.md          # submission checklist for the final deadline
-├── FINAL_PRESENTATION_PREP.md  # presentation outline and Q&A prep
+├── presentation/                # final slide deck
 ├── src/                        # earlier modular AML experiments and utilities
 ├── tests/                      # lightweight CI smoke tests for src/
 ├── .github/workflows/ci.yml    # GitHub Actions test workflow
@@ -341,14 +339,9 @@ Why it matters:
 - the alert-ranking story is especially compelling because top-ranked alerts are almost always true positives
 - the final notebook also exports example top alerts, false positives, and false negatives for manual review
 
-## Final Prep Docs
+## Presentation
 
-For the submission week, use these two files directly:
-
-- [`FINAL_CHECKLIST.md`](FINAL_CHECKLIST.md)
-- [`FINAL_PRESENTATION_PREP.md`](FINAL_PRESENTATION_PREP.md)
-- [`presentation/final_presentation.pptx`](presentation/final_presentation.pptx)
-- [`presentation/final_presentation_script.md`](presentation/final_presentation_script.md)
+The final slide deck is available at [`presentation/final_presentation.pptx`](presentation/final_presentation.pptx).
 
 ## Limitations
 
