@@ -156,6 +156,8 @@ We use two public transaction datasets:
 1. IBM Transactions for Anti Money Laundering (AML)
 2. SAML-D synthetic transaction monitoring dataset for AML
 
+These sources were chosen because they are public, reproducible transaction-level AML datasets with labels, timestamps, parties/accounts, amounts, currencies/payment formats, and synthetic laundering patterns. Using both datasets gives a larger and more diverse benchmark while avoiding private bank data.
+
 We originally considered additional datasets earlier in the semester, but the final project centers on IBM + SAML-D. The Czech dataset was dropped from the final modeling story.
 
 ### Data sources
